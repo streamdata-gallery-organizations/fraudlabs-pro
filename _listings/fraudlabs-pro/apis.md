@@ -7,47 +7,40 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28712-www-
 x-kinRank: "7"
 x-alexaRank: "555056"
 tags: FraudLabs Pro
-created: "2018-06-30"
-modified: "2018-06-30"
+created: "2018-08-30"
+modified: "2018-08-30"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/fraudlabs-pro/master/_listings/fraudlabs-pro/apis.md
 specificationVersion: "0.14"
 apis:
-- name: FraudLabs Pro V1OrderScreen_POST
-  x-api-slug: fraudlabs-pro
+- name: FraudLabs Pro - V1OrderScreen_POST
+  x-api-slug: v1orderscreen-post
   description: Screen order for payment fraud.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28712-www-fraudlabspro-com.jpg
   humanURL: https://www.fraudlabspro.com
-  baseURL: https://virtserver.swaggerhub.com//fraudlabspro/fraudlabspro/1.0//v1/order/screen
-  tags: Orders,Fraud
+  baseURL: https://virtserver.swaggerhub.com//fraudlabspro/fraudlabspro/1.0
+  tags: SaaS, Technology, Fraud, Fake, Service API, Relative Data, Webhook Implementations
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/fraudlabs-pro/master/_listings/fraudlabs-pro/v1orderscreen-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/fraudlabs-pro/master/_listings/fraudlabs-pro/v1orderscreen-post-openapi.md
-- name: FraudLabs Pro V1OrderFeedback_POST
-  x-api-slug: fraudlabs-pro
+- name: FraudLabs Pro - V1OrderFeedback_POST
+  x-api-slug: v1orderfeedback-post
   description: Feedback the status of an order transaction.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28712-www-fraudlabspro-com.jpg
   humanURL: https://www.fraudlabspro.com
-  baseURL: https://virtserver.swaggerhub.com//fraudlabspro/fraudlabspro/1.0//v1/order/feedback
-  tags: Orders,Fraud,Feedback
+  baseURL: https://virtserver.swaggerhub.com//fraudlabspro/fraudlabspro/1.0
+  tags: SaaS, Technology, Fraud, Fake, Service API, Relative Data, Webhook Implementations
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/fraudlabs-pro/master/_listings/fraudlabs-pro/v1orderfeedback-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/fraudlabs-pro/master/_listings/fraudlabs-pro/v1orderfeedback-post-openapi.md
-- name: FraudLabs Pro
-  x-api-slug: fraudlabs-pro
-  description: FraudLabs Pro provides sophisticated fraud detection solution helping
-    merchants to prevent payment fraud and minimize chargeback & losses.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28712-www-fraudlabspro-com.jpg
-  humanURL: https://www.fraudlabspro.com
-  baseURL: https://virtserver.swaggerhub.com//fraudlabspro/fraudlabspro/1.0
-  tags: FraudLabs Pro
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/fraudlabs-pro/master/_listings/fraudlabs-pro/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://framesocket.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://fraudlabs.pro.stack.network
 - type: x-crunchbase
   url: https://crunchbase.com/organization/fraudlabs-pro
 - type: x-documentation
